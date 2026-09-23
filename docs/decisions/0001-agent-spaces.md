@@ -19,7 +19,7 @@ Agents need their own browsing state. Sharing one agent profile across clients w
 - Bench remains an opt-in testing interface for ordinary browsing. It does not implement the agent boundary.
 
 ## Scope
-This record owns the browsing-data and owner-lookup boundary. The local MCP interface is proposed in [ADR-0002](0002-agent-mcp-interface.md). Working slots, idle closure, and human handoff are proposed in [ADR-0003](0003-agent-space-lifecycle.md). Those interfaces must preserve this boundary; neither changes the person's ordinary browsing or Bench policy.
+This record owns the browsing-data and owner-lookup boundary. The local MCP interface is specified in [ADR-0002](0002-agent-mcp-interface.md). Working slots, idle closure, and human handoff are specified in [ADR-0003](0003-agent-space-lifecycle.md). Those interfaces must preserve this boundary; neither changes the person's ordinary browsing or Bench policy.
 
 ## Alternatives considered
 
